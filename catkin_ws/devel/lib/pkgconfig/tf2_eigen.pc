@@ -1,0 +1,8 @@
+prefix=/home/lsj/catkin_ws/devel
+
+Name: tf2_eigen
+Description: Description of tf2_eigen
+Version: 0.6.6
+Cflags: -I/home/lsj/catkin_ws/src/geometry2/tf2_eigen/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib 
+Requires: 

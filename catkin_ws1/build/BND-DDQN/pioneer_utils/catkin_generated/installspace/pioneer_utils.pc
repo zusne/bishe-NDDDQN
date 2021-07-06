@@ -1,0 +1,8 @@
+prefix=/home/lsj/catkin_ws1/install
+
+Name: pioneer_utils
+Description: Description of pioneer_utils
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs message_runtime sensor_msgs tf tf2 robot_state_publisher urdf geometry_msgs sensor_msgs

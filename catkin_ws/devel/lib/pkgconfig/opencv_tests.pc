@@ -1,0 +1,8 @@
+prefix=/home/lsj/catkin_ws/devel
+
+Name: opencv_tests
+Description: Description of opencv_tests
+Version: 1.13.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

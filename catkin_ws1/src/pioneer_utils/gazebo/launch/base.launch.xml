@@ -1,0 +1,17 @@
+<launch>
+  <arg name="x" default="0.0"/>
+  <arg name="y" default="0.0"/>
+  <arg name="z" default="0.0"/>
+  <arg name="ns" default="" />
+  
+  <param name="robot_description"
+	 command="$(find xacro)/xacro --inorder '$(find pioneer_utils)/description/urdf/pioneer3at.urdf.xacro'" />
+  <!-- Gazebo model spawner -->
+  <node name="spawn_model" pkg="gazebo_ros" type="spawn_model" output="screen" respawn="false"
+        args="-x $(arg x)
+              -y $(arg y)                         
+              -z $(arg z)
+              -unpause -urdf -param robot_description -model mobile_base"/>
+ 
+
+</launch>

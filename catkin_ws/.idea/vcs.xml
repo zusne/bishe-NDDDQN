@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/src/BND-DDQN" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/geometry" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/geometry2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/vision_opencv" vcs="Git" />
+  </component>
+</project>

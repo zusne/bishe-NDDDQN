@@ -1,0 +1,8 @@
+prefix=/home/lsj/catkin_ws/devel
+
+Name: tf2_tools
+Description: Description of tf2_tools
+Version: 0.6.6
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: tf2 tf2_msgs tf2_ros
